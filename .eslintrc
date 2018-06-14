@@ -6,7 +6,8 @@
     "no-use-before-define": ["off"],
     "comma-dangle": ["error", "never"],
     "global-require": ["off"],
-    "import/no-dynamic-require": ["off"]
+    "import/no-dynamic-require": ["off"],
+    "parser": "babel-eslint"
   },
   "env": {
     "browser": false,
