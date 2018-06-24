@@ -1,6 +1,6 @@
 require('colors');
-const config = require('./config');
 const nodemailer = require('nodemailer');
+const config = require('./config');
 
 const args = process.argv.slice(2);
 const REQUIRED_FIELDS_COUNT = 2;
@@ -45,4 +45,3 @@ transporter.sendMail(message, (err, info) => {
 
   return console.log('Message sent: %s', info.messageId);
 });
-
